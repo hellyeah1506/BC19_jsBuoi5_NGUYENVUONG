@@ -24,8 +24,7 @@ document.getElementById("ketQuaXt").onclick = function(){
     }else{
         document.getElementById("showketqua").innerHTML = `Số Điểm của bạn là: ${tongDiem} Điểm
         <br>
-        chúc bạn may mắn lần sau
-        `;
+        chúc bạn may mắn lần sau`;
     }
 }
 
