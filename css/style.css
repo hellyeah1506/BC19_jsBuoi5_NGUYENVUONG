@@ -14,7 +14,10 @@ label{
 select{
     padding: 8px;
     border-radius: 6px;
-    display: block;
+    
+}
+#KhuVuc, #doiTuong{
+    width: 100%;
 }
 .bg{
     background-image: linear-gradient( to left bottom, #1abc9c, #27ae60,#3498db,#2c3e50 150%);

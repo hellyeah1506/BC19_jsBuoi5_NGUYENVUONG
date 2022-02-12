@@ -13,7 +13,7 @@ document.getElementById("ketQuaXt").onclick = function(){
     const khuVuc = document.getElementById("KhuVuc").value;
     const doiTuong = document.getElementById("doiTuong").value;
     const diemChuan = document.getElementById("diemChuan").value;
-    const tongDiem = (parseInt(number1) + parseInt(number2) + parseInt(number3) + parseInt(khuVuc) + parseInt(doiTuong));
+    const tongDiem = (parseFloat(number1) + parseFloat(number2) + parseFloat(number3) + parseFloat(khuVuc) + parseFloat(doiTuong));
     
 
     if(tongDiem >= diemChuan){
