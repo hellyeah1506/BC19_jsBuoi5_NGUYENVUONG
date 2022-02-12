@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2,h3{
+    color: #fff;
+}
+
+label{
+
+    color: #fff;
+}
+select{
+    padding: 8px;
+    border-radius: 6px;
+    display: block;
+}
+.bg{
+    background-image: linear-gradient( to left bottom, #1abc9c, #27ae60,#3498db,#2c3e50 150%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position:center ;
+}
+.bg2{
+    background-image: linear-gradient( to  left top, #1abc9c, #27ae60,#3498db,#2c3e50 150%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position:center ;
+}
+.form-container{
+    position: absolute;
+    top: 10vh;
+    background-color: rgba(15, 125, 216, 0.438);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #fff;
+    width: 100%;
+}
+#divThanhTien{
+    margin-top: 30px;
+}
+#showketqua {
+    margin-top: 25px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}

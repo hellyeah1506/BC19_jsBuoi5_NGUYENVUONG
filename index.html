@@ -5,12 +5,118 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      
+    <section class="container-fluid bg">
+      <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-3">
+          <div id="baitap" class="form-container">
+            <div class="form-group">
+              <h2>tính điểm thi</h2>
+              <div class="form-group">
+                <label for="">điểm thi môn 1:</label>
+                <input type="number" name="" id="number1" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="">điểm thi môn 2:</label>
+              <input type="number" name="" id="number2" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="">điểm thi môn 3:</label>
+              <input type="number" name="" id="number3" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <div class="khuvuc">
+              <label for="">Chọn Khu Vực</label>
+              <form action="/action_page.php">
+                <select id="KhuVuc">
+                  <option value="2">Khu Vực 1</option>
+                  <option value="1">Khu Vực 2</option>
+                  <option value="0.5">Khu Vực 3</option>
+                </select>
+              </form>
+            </div>
+           <div class="doituong">
+            <label for="">Chọn Đối Tượng</label>
+            <form action="/action_page.php">
+              <select id="doiTuong">
+                <option value="2">Đối Tượng 1</option>
+                <option value="1">Đối Tượng 2</option>
+                <option value="0.5">Đối Tượng 3</option>
+              </select>
+            </form>
+           </div>
+           <div class="form-group">
+            <h2>điểm  chuẩn</h2>
+            <div class="form-group">
+              <input type="number" name="" id="diemChuan" class="form-control" placeholder="" aria-describedby="helpId">
+          </div>
+            </div>
+            
+            <button class="btn btn-warning btn-block text-light mt-4" id="ketQuaXt">Submit</button>
+            <div id="showketqua"></div>
+          </div>
+        </section>
+      </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="container-fluid bg2">
+        <section class="row justify-content-center">
+          <section class="col-12 col-sm-6 col-md-3">
+            <div id="baitap" class="form-container">
+              <div class="form-group">
+                <h2>Tính tiền điện</h2>
+                <div class="form-group">
+                  <label for="">Họ Và Tên</label>
+                  <input type="text" name="" id="userNameEl" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              <div class="form-group">
+                <label for="">số KW điện tiêu thụ</label>
+                <input type="number" name="" id="KWtieuthu" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              </div>
+              <button class="btn btn-warning btn-block text-light mt-4" id="ketqua">Submit</button>
+              <div style="display :none" id="divThanhTien" class="dongia">
+                <h2>
+                  <span id="xuatTien" class="xuatTien"></span>
+                </h2>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+
+
+
+
     <!-- Optional JavaScript -->
     <script src="./JS/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
